@@ -1,0 +1,9 @@
+<?php
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'ummec');
+define('DB_USER', 'root');
+define('DB_PASS', 'pass');
+define('CHARSET', 'utf8');
+
+define('SITE_URL', 'http://localhost/ummec');
+?>

@@ -1,0 +1,216 @@
+/* codigo personalizado */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media (min-width: 601px) {
+  .file_input_1 {
+    margin: auto;
+    max-width: 80%;
+  }
+  .toolsbar {
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -60px;
+  }
+  .toolsbar_user {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #tools_l {
+    float: left;
+  }
+  #tools_p {
+    float: right;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 0px) {
+  .file_input_1 {
+    margin: auto;
+  }
+}
+
+.kv-file-content {
+  margin: auto !important;
+}
+
+.file-input {
+  text-align: center;
+}
+
+.kv-zoom-cache {
+  display: none;
+}
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.panel-primary {
+  border-color: #337ab7;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+.panel-body {
+  padding: 15px;
+}
+
+.custom-control-input:checked ~ .custom-control-label_fuente::before {
+  color: #fff;
+  border-color: #ffc107;
+  background-color: #ffc107;
+}
+
+.btn_test {
+  margin-bottom: 10px;
+}
+
+.nav-tabs .nav-link:not(.active) {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  color: #007bff !important;
+}
+
+.custom-file-label::after {
+  content: "Elegir";
+}
+
+.btn-tertiary {
+  color: #555;
+  padding: 0;
+  line-height: 40px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  border: 2px solid #555 !important;
+}
+.btn-tertiary:hover,
+.btn-tertiary:focus {
+  color: #888;
+  border-color: #888 !important;
+}
+/* input file style */
+.input-file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.input-file + .js-labelFile {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.input-file + .js-labelFile .icon:before {
+  content: "\f093";
+}
+.input-file + .js-labelFile.has-file .icon:before {
+  content: "\f00c";
+  color: #5aac7b;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+  color: transparent;
+  border: palevioletred;
+}
+table.dataTable thead .sorting:before,
+.sorting_asc:before,
+.sorting_desc:before {
+  display: none !important;
+}
+table.dataTable thead .sorting:after,
+.sorting_asc:after,
+.sorting_desc::after {
+  display: none !important;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+  border-color: black !important;
+}
+.footer_table {
+  text-align: left;
+  margin-left: 40px;
+}
+.dt-buttons {
+  z-index: 3 !important;
+  position: absolute !important;
+  right: 100px !important;
+  margin-top: -50px !important;
+}
+.odd {
+  background-color: transparent !important;
+  color: #212529 !important;
+}
+.even {
+  background-color: transparent !important;
+  color: #212529 !important;
+}
+.excelButton {
+  background-color: transparent; /* Blue background */
+  border: none; /* Remove borders */
+  color: transparent;
+  width: 15px;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: rgb(255, 77, 77);
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../img/loading_ajax.gif') 50% 50% no-repeat rgb(249,249,249);
+  opacity: .8;
+}
+.font_alert{
+  font-family:'Quicksand', sans-serif;
+}
+.td_color{
+  color: #fff;
+  text-align: center;  
+}
+
+thead, th {text-align: center !important; padding-right: 4px !important; color:#150485 !important;}
+
+*:focus {
+  outline: none !important;
+}
+.border-left-primary {
+  border-left: .25rem solid #4e73df!important;
+}
+.text-gray-300 {
+  color: #dddfeb!important;
+}
+
+.border-left-success {
+  border-left: .25rem solid #1cc88a!important;
+}
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
